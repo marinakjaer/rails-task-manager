@@ -1,3 +1,59 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: sans-serif;
+  color: rgba(0,0,0,0.8);
+}
+
+hr{
+  height: 1px;
+  color: red;
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  padding-left: 10px;
+}
+
+.items {
+  display: flex;
+  padding: 5px;
+}
+
+.checkbox {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.checkbox p {
+  padding-left: 10px;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: rgb(51, 151, 220);
+}
+
+.add-task p {
+  padding-left: 10px;
+}
+
+.description {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 15px;
+  padding: 40px;
+  margin: 0 20px;
+}
